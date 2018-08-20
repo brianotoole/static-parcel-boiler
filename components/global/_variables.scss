@@ -1,0 +1,32 @@
+/*********************************************************
+  Variables
+*********************************************************/
+
+// colors
+$red:  #c80000;
+$gold: #ffc300;
+$grey: #959595;
+$green: green;
+$white:#ffffff;
+$color__primary: $red;
+$color__secondary: $gold;
+$color__muted: $grey;
+$color__white: $grey;
+
+// color darkens
+$color__primary--dark: darken($color__primary, 15%);
+$color__secondary--dark: darken($color__secondary, 15%);
+
+// color utilites
+$color__error: $red;
+$color__success: $green;
+
+// fonts
+$font__body: "Lato", sans-serif;
+$font__heading: "Roboto", sans-serif;
+$font-size: 1rem;
+
+// breakpoints
+$bp_sm: 530px;
+$bp_md: 800px;
+$bp_lg: 999px;

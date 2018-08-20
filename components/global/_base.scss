@@ -1,0 +1,41 @@
+/*********************************************************
+  Base
+*********************************************************/
+
+*, *:before, *:after { box-sizing: inherit; }
+
+html {
+  background-color: white;
+  font-size: 1rem;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  min-width: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-size: $font-size;
+  font-weight: 300;
+  line-height: 1.4;
+  font-family: $font__body;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: $color__primary;
+  transition: 0.2s color ease-out;
+  &:hover {
+    color: $color__primary--dark;
+  }
+}
